@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="weblaf-complete-1.29-fixed">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/weblaf-complete-1.29-fixed.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

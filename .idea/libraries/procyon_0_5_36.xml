@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="procyon-0.5.36">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/procyon-0.5.36.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
