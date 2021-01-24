@@ -90,6 +90,11 @@
             <url>https://jcenter.bintray.com</url>
             <name>jcenter-bintray</name>
         </repository>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
    <dependencies>
@@ -128,6 +133,12 @@
            <groupId>org.bitbucket.mstrobel</groupId>
            <artifactId>procyon-compilertools</artifactId>
            <version>0.5.36</version>
+       </dependency>
+
+       <dependency>
+           <groupId>com.github.Col-E</groupId>
+           <artifactId>CAFED00D</artifactId>
+           <version>1.1.1</version>
        </dependency>
 
        <dependency>

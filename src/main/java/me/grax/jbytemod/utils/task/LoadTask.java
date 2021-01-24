@@ -7,6 +7,7 @@ import me.grax.jbytemod.scanner.ScannerThread;
 import me.grax.jbytemod.ui.PageEndPanel;
 import me.grax.jbytemod.utils.ErrorDisplay;
 import me.grax.jbytemod.utils.FileUtils;
+import me.grax.jbytemod.utils.IllegalBytecodePatcherUtil;
 import org.apache.commons.io.IOUtils;
 import org.apache.tools.zip.ZipEntry;
 import org.apache.tools.zip.ZipFile;
@@ -126,7 +127,7 @@ public class LoadTask extends SwingWorker<Void, Integer> {
         publish((int) (((float) loaded++ / (float) jarSize) * 100f));
         String name = zipEntry.getName();
         try (InputStream jis = jar.getInputStream(zipEntry)) {
-            byte[] bytes = IOUtils.toByteArray(jis);
+            byte[] bytes = IllegalBytecodePatcherUtil.fix(IOUtils.toByteArray(jis));
             if (name.endsWith(".class") || name.endsWith(".class/")) {
                 synchronized (classes) {
                     try {

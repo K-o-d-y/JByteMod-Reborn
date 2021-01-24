@@ -45,6 +45,9 @@
     <orderEntry type="library" name="Maven: org.bitbucket.mstrobel:procyon-expressions:0.5.36" level="project" />
     <orderEntry type="library" name="Maven: org.bitbucket.mstrobel:procyon-reflection:0.5.36" level="project" />
     <orderEntry type="library" name="Maven: org.bitbucket.mstrobel:procyon-compilertools:0.5.36" level="project" />
+    <orderEntry type="library" name="Maven: com.github.Col-E:CAFED00D:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:8.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm-tree:8.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.tinyjee.jgraphx:jgraphx:3.4.1.3" level="project" />
     <orderEntry type="library" name="Maven: org.jfree:jfreechart:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.benf:cfr:0.150" level="project" />
