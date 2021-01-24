@@ -2,4 +2,4 @@
 A fork of JByteMod, but makes it reborn.
 
 # Contributors
-GraxCode, UltraPanda, Ho3
+GraxCode, UltraPanda, Ho3, Kody
