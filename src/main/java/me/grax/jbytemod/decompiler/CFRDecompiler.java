@@ -11,6 +11,7 @@ import org.benf.cfr.reader.entities.Method;
 import org.benf.cfr.reader.entities.constantpool.ConstantPool;
 import org.benf.cfr.reader.state.ClassFileSourceImpl;
 import org.benf.cfr.reader.state.DCCommonState;
+import org.benf.cfr.reader.util.AnalysisType;
 import org.benf.cfr.reader.util.bytestream.BaseByteData;
 import org.benf.cfr.reader.util.getopt.OptionsImpl;
 import org.benf.cfr.reader.util.output.ToStringDumper;
@@ -106,7 +107,6 @@ public class CFRDecompiler extends Decompiler {
             }
             ClassFileSource2 cfs = new ClassFileSource2() {
 
-                @Override
                 public JarContent addJarContent(String s) {
                     return null;
                 }
@@ -132,6 +132,12 @@ public class CFRDecompiler extends Decompiler {
                 @Override
                 public Collection<String> addJar(String arg0) {
                     throw new RuntimeException();
+                }
+
+                @Override
+                public JarContent addJarContent(String jarPath, AnalysisType analysisType) {
+                    // TODO Auto-generated method stub
+                    return null;
                 }
             };
             PluginRunner runner = new PluginRunner(ops, cfs);
